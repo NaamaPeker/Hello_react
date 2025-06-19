@@ -5,6 +5,7 @@ import './App.css';
 import UserList
  from './UserList';
 import CustomButton from './customButton';
+import ProductCard from './productCard';
 
  const users = ['naama', 'noam', 'hila', 'yali']
 
@@ -14,7 +15,7 @@ import CustomButton from './customButton';
       <header className="App-header">
        {
         <div>
-        <CustomButton Label="button to nowhere" Color="pink"/>
+        <ProductCard name="product A" price='100' imageUrl={"facebook.com"}/>
         </div>
 }
       </header>
