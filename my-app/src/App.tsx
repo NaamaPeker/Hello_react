@@ -1,13 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import GreetingCard from './GreetingCard';
 import './App.css';
-import UserList
- from './UserList';
-import CustomButton from './customButton';
-import ProductCard from './productCard';
-
- const users = ['naama', 'noam', 'hila', 'yali']
+import Counter from './Counter';
+const users = ['naama', 'noam', 'hila', 'yali']
 
  function App() {
   return (
@@ -15,7 +9,8 @@ import ProductCard from './productCard';
       <header className="App-header">
        {
         <div>
-        <ProductCard name="product A" price='100' imageUrl={"facebook.com"}/>
+          <h1>counter</h1>
+          <Counter num = {10}/>
         </div>
 }
       </header>
